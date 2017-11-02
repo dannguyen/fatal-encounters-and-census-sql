@@ -268,3 +268,16 @@ GQ Magazine: [Meet the Man Who Spends 10 Hours a Day Tracking Police Shootings](
 
 
 Reddit IAMA: [I’m D. Brian Burghart, a journalist who was offended by the government’s lack of statistics on police-involved deaths, so I started the Fatal Encounters website. AMA!](https://www.reddit.com/r/IAmA/comments/2eyrdz/im_d_brian_burghart_a_journalist_who_was_offended/)
+
+
+And of course, there's the important projects run by news organizations, which have also released their data. For this repo so far, I've only included Fatal Encounters because of its much larger scope. These other datasets have (purposeful) limitations and qualities that make them worth studying on their own. Though the joining of their records to Census data is largely the same, given their similar use of recording city and state of each incident:
+
+
+- [Washington Post: Fatal Force, 2015-ongoing](www.washingtonpost.com/policeshootings/)
+- [The Guardian: The Counted, 2015-2016](https://www.theguardian.com/us-news/series/counted-us-police-killings)
+
+
+You can also see a compilation of projects and stories here:
+
+http://2015.padjo.org/briefs/tracking-police-involved-homicides/
+
