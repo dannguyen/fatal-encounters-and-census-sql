@@ -8,11 +8,37 @@ But we can still use SQL to quickly do interesting and wide-scale explorations t
 
 **Example:** Of the American cities with greater than 100,000 population, which of these cities have the highest count of police-involved homicides, from 2014-2016, when adjusted for population?
 
-[Here's the SQL and resulting table](#top-20-cities-by-incident-per-100k).
+[Here's the SQL and resulting table](#top-20-cities-by-incident-count-per-100k), which joins an aggregation of the FE data with Census 2010 city population estimates:
+
+
+| city           | state | population | incidents | incidents_per_100k |
+| -------------- | ----- | ---------- | --------- | ------------------ |
+| Waco           | TX    | 124805     | 11        | 8.81               |
+| Orlando        | FL    | 238300     | 17        | 7.13               |
+| Kansas City    | KS    | 145786     | 10        | 6.86               |
+| Flint          | MI    | 102434     | 7         | 6.83               |
+| San Bernardino | CA    | 209924     | 14        | 6.67               |
+| St. Louis      | MO    | 319294     | 21        | 6.58               |
+| Midland        | TX    | 111147     | 7         | 6.3                |
+| Topeka         | KS    | 127473     | 8         | 6.28               |
+| Stockton       | CA    | 291707     | 18        | 6.17               |
+| Knoxville      | TN    | 178874     | 11        | 6.15               |
+| Birmingham     | AL    | 212237     | 13        | 6.13               |
+| Tulsa          | OK    | 391906     | 24        | 6.12               |
+| Beaumont       | TX    | 118296     | 7         | 5.92               |
+| Bakersfield    | CA    | 347483     | 20        | 5.76               |
+| Baton Rouge    | LA    | 229493     | 13        | 5.66               |
+| Pueblo         | CO    | 106595     | 6         | 5.63               |
+| Huntsville     | AL    | 180105     | 10        | 5.55               |
+| Modesto        | CA    | 201165     | 11        | 5.47               |
+| Kansas City    | MO    | 459787     | 25        | 5.44               |
+| Cincinnati     | OH    | 296943     | 16        | 5.39               |
 
 
 
-Contrast that with the SQL and table for [top 20 cities by total count of incidents](#top-20-cities-by-incident-count-per-100k) (not adjusted for city population):
+
+
+Contrast that with the (simpler) SQL and table for [top 20 cities by total count of incidents](#top-20-cities-by-incident-count) (not adjusted for city population), which doesn't use a SQL JOIN to compare the incident total with Census population data:
 
 | city          | state | incidents |
 | ------------- | ----- | --------- |
