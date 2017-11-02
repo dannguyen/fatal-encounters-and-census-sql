@@ -35,6 +35,7 @@ But we can still use SQL to quickly do interesting and wide-scale explorations t
 | Cincinnati     | OH    | 296943     | 16        | 5.39               |
 
 
+(Note: "incidents" are events as recorded by the Fatal Encounters project. It does not necessarily mean "homicides", nevermind police-committed homicides. If you check out the ["Related Reading" section](related-reading) at the bottom of this page, you can learn more than you ever wanted to know about how difficult it is to count and classify deaths.)
 
 
 
@@ -274,6 +275,9 @@ LIMIT 20;
 | Modesto        | CA    | 201165     | 11        | 5.47               |
 | Kansas City    | MO    | 459787     | 25        | 5.44               |
 | Cincinnati     | OH    | 296943     | 16        | 5.39               |
+
+
+<a name="related-reading" id="related-reading"></a>
 
 
 ## Related reading
