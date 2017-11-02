@@ -1,5 +1,16 @@
 # Studying police-involved homicides and census data with SQLite
 
+This repo contains data from the [Fatal Encounters](http://www.fatalencounters.org/) project and [Census 2010 Gazetteer](https://www.census.gov/geo/maps-data/data/gazetteer2010.html) -- and the code to bootstrap the data into a SQLite database.
+
+The purpose is to provide an example of using SQL joins and aggregations to efficiently summarize and analyze real-world data. The Fatal Encounters data is a little "messy" because it is hand-entered by volunteers, but we can still use SQL to quickly do interesting and wide-scale explorations that would be very difficult with spreadsheet/pivot tables alone. Particularly, the joining of Census data with the city/state information in FE.
+
+You can download the SQLite database here:
+
+[fatal-encounters-and-census-2010.sqlite](https://github.com/dannguyen/fatal-encounters-and-census-sql/raw/master/fatal-encounters-and-census-2010.sqlite)
+
+Special thanks to [D. Brian Burghart](http://www.fatalencounters.org/about-me/) and the many volunteers who continue to keep the Fatal Encounters project updated.  
+
+
 
 # Sources
 
@@ -197,3 +208,6 @@ GQ Magazine: [Meet the Man Who Spends 10 Hours a Day Tracking Police Shootings](
 
 > **I realized, at that moment, that the whole thing was kind of a lie.**
 
+
+
+Reddit IAMA: [I’m D. Brian Burghart, a journalist who was offended by the government’s lack of statistics on police-involved deaths, so I started the Fatal Encounters website. AMA!](https://www.reddit.com/r/IAmA/comments/2eyrdz/im_d_brian_burghart_a_journalist_who_was_offended/)
